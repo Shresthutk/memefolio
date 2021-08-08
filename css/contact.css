@@ -1,0 +1,37 @@
+.samsoong {
+    /* border: 2px solid chocolate; */
+    max-width: 100%;
+    height: 75vh;
+    background-image: url('../img/samsoongNum.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.boxes2{
+    /* border: 2px solid pink; */
+    width: 35vh;
+    text-align: center;
+    font-size: 3vh;
+    padding: 1vh;
+    background: linear-gradient(aqua,white);
+    color: coral;
+}
+.boxes2 img{
+    width: 25vh;
+    height: 23vh;
+}
+
+#box3 ol {
+    font-size: 2.5vh;
+}
+
+
+#box4 ol {
+    font-size: 2.5vh;
+}
+.boxes2 a{
+    text-decoration: none;
+    color: coral;
+}

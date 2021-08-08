@@ -1,0 +1,72 @@
+@media (max-width:690px){
+
+/* media query for home */
+
+    .introtext{
+        font-size: 9vh;
+        max-width: 100%;
+
+    }
+    .pre{
+        font-size: 5vh;
+        max-width: 100%;
+    }
+    .home{
+        flex-wrap: wrap;
+    }
+    .sinchan img{
+       padding-top: 0vh;
+    }
+
+    /* media query for skills */
+    .boxes img{
+        width: 25vh;
+        height: 23vh;
+    }
+    .boxes{
+        font-size: 3vh;
+       background:linear-gradient(white,transparent);
+       font-weight: 600;
+    }
+    #box1 ol{
+        font-size: 2vh;
+    }
+    #box2 ol{
+        font-size: 2vh;
+    }
+    .expert{
+        opacity: 5;
+      
+    }
+
+
+    /* media query for contact */
+
+    .boxes2 img{
+        width: 20vh;
+        height: 18vh;
+    }
+    .boxes2{
+        background: linear-gradient(white,transparent);
+        font-weight: 800;
+    }
+   .samsoong{
+       background-position: center;
+       background-size: cover;
+       opacity: 8;
+   }
+   .burger{
+       display:flex;
+   }
+   .li{
+       display: none;
+   }
+   .hamli{
+       display: flex;
+   }
+   .hamul{
+       flex-direction: column;
+       height: 30vh;
+   }
+   
+}
