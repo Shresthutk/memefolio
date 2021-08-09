@@ -13,6 +13,7 @@
     }
     .home{
         flex-wrap: wrap;
+        background-position-x: -19vh;
     }
     .sinchan img{
        padding-top: 0vh;
@@ -25,7 +26,6 @@
     }
     .boxes{
         font-size: 3vh;
-       background:linear-gradient(white,transparent);
        font-weight: 600;
     }
     #box1 ol{
@@ -35,10 +35,15 @@
         font-size: 2vh;
     }
     .expert{
-        opacity: 5;
+        opacity: 3;
+        background-size: cover;
       
     }
 
+/* media query for interest */
+.sleeping{
+    height: 35vh;
+}
 
     /* media query for contact */
 
@@ -51,10 +56,13 @@
         font-weight: 800;
     }
    .samsoong{
-       background-position: center;
+       background-position-x: -63vh;
        background-size: cover;
        opacity: 8;
    }
+
+   /* hamburger nav */
+   
    .burger{
        display:flex;
    }
@@ -66,7 +74,13 @@
    }
    .hamul{
        flex-direction: column;
+       animation-name: hamburger;
+       animation-duration: 1s;
        height: 30vh;
+   }
+   @keyframes hamburger{
+       from {height:7vh;}
+       to{height:30vh;}
    }
    
 }

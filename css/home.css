@@ -33,6 +33,10 @@
     opacity: 0.8;
 }
 
+@keyframes hamdef{
+    from{height: 30vh;}
+    to{height: 7vh;}
+}
 .ul {
     /* border: 2px solid green; */
     display: flex;
@@ -42,6 +46,8 @@
     margin: auto;
     font-size: 2vh;
     font-weight: bolder;
+    animation-name: hamdef;
+    animation-duration: 1s;
     height: 7vh;
 }
 
